@@ -125,10 +125,7 @@ const Header = ({location}) => (
                     </a>
                    </li>) : null
                 }
-                {githubUrl !== '' ?
-                  (<li className={'githubBtn'}>
-                    <GitHubButton href={githubUrl} data-show-count="true" aria-label="Star on GitHub">Star</GitHubButton>
-                  </li>) : null}
+              
               </ul>
             </div>
           </nav>

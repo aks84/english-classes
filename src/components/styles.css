@@ -514,7 +514,7 @@ blockquote {
 .gitBtn {
   height: 30px;
   min-height: 30px;
-  display: flex;
+  display: none;
   align-items: center;
 }
 
@@ -905,7 +905,7 @@ img {
   }
 
   .gitBtn {
-    display: inline-block;
+    display: none;
   }
 
   .mainWrapper {
@@ -953,7 +953,7 @@ img {
     flex: initial;
   }
   .githubBtn {
-    padding: 10px 10px;
+   display: none;
   }
   .divider {
     margin: 0 5px;

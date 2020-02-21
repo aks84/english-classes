@@ -1,14 +1,14 @@
 const config = {
 	"gatsby": {
 		"pathPrefix": "/",
-		"siteUrl": "https://learn.hasura.io",
+		"siteUrl": "https://englishclasses.live",
 		"gaTrackingId": null,
 		"trailingSlash": false
 	},
 	"header": {
-		"logo": "https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/favicon.png",
-		"logoLink": "https://learn.hasura.io",
-		"title": "Gatsby Gitbook Boilerplate",
+		"logo": "",
+		"logoLink": "https://englishclasses.live",
+		"title": "EnglishClasses.Live",
 		"githubUrl": "https://github.com/hasura/gatsby-gitbook-boilerplate",
 		"helpUrl": "",
 		"tweetText": "",
@@ -32,28 +32,29 @@ const config = {
       		"/codeblock" // add trailing slash if enabled above
     	],
 		"links": [
-			{ "text": "Hasura", "link": "https://hasura.io"},
+			{ "text": "YouTube", "link": "https://youtube.com"},
+			{ "text": "Facebook", "link": "https://facebook.com"},
 		],
 		"frontline": false,
 		"ignoreIndex": true,
 	},
 	"siteMetadata": {
-		"title": "Gatsby Gitbook Boilerplate | Hasura",
-		"description": "Documentation built with mdx. Powering learn.hasura.io ",
+		"title": "EnglishClasses.Live | ECL ",
+		"description": "Online English Classes: Spoken English, English Speaking, IELTS, English Reading Comprehension, English Listening, English Writing, Vocabulary Building, Accent Nutrilization, and Mother Tounge Influence MTI Removal",
 		"ogImage": null,
-		"docsLocation": "https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content",
-		"favicon": "https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg"
+		"docsLocation": "",
+		"favicon": "/"
 	},
 	"pwa": {
-		"enabled": false, // disabling this will also remove the existing service worker.
+		"enabled": true, // disabling this will also remove the existing service worker.
 		"manifest": {
-			"name": "Gatsby Gitbook Starter",
-			"short_name": "GitbookStarter",
+			"name": "EnglishClasses.Live",
+			"short_name": "ECL",
 			"start_url": "/",
 			"background_color": "#6b37bf",
 			"theme_color": "#6b37bf",
 			"display": "standalone",
-			"crossOrigin": "use-credentials",
+			
 			icons: [
 				{
 					src: "src/pwa-512.png",
