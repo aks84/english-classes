@@ -71,7 +71,7 @@ const SidebarLayout = ({ location }) => (
               fields {
                 slug
               }
-              tableOfContents
+              tableOfContents(maxDepth: 10)
             }
           }
         }
@@ -89,13 +89,18 @@ const SidebarLayout = ({ location }) => (
                 innerItems = item.node.tableOfContents.items.map((innerItem, index) => {
                   const itemId = innerItem.title ? innerItem.title.replace(/\s+/g, '').toLowerCase() : '#';
                   return (
-                    <ListItem
+                   <div>
+                      <ListItem
                       key={index}
                       to={`#${itemId}`}
                       level={1}
-                    >
-                      {innerItem.title}
+                      >
+                      <p>{innerItem.title}</p>
+                      
+                                          
                     </ListItem>
+                    
+                   </div>
                   );
                 });
               }
@@ -111,7 +116,7 @@ const SidebarLayout = ({ location }) => (
         return (
           <Sidebar>
             <ul className={'rightSideBarUL'}>
-              <li className={'rightSideTitle'}>CONTENTS</li>
+              <li className={'rightSideTitle'}>PAGE CONTENT </li>
               {finalNavItems}
             </ul>
           </Sidebar>

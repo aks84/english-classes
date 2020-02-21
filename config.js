@@ -9,7 +9,7 @@ const config = {
 		"logo": "",
 		"logoLink": "https://englishclasses.live",
 		"title": "EnglishClasses.Live",
-		"githubUrl": "https://github.com/hasura/gatsby-gitbook-boilerplate",
+		"githubUrl": "/",
 		"helpUrl": "",
 		"tweetText": "",
 		"links": [
