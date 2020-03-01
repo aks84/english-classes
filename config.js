@@ -6,7 +6,7 @@ const config = {
 		"trailingSlash": false
 	},
 	"header": {
-		"logo": "",
+		"logo": "/images/ecl.png",
 		"logoLink": "https://englishclasses.live",
 		"title": "EnglishClasses.Live",
 		"githubUrl": "/",
@@ -40,10 +40,10 @@ const config = {
 	},
 	"siteMetadata": {
 		"title": "EnglishClasses.Live | ECL ",
-		"description": "Online English Classes: Spoken English, English Speaking, IELTS, English Reading Comprehension, English Listening, English Writing, Vocabulary Building, Accent Nutrilization, and Mother Tounge Influence MTI Removal",
+		"description": "Online English Classes: Spoken English, English Speaking, IELTS, English Reading Comprehension, English Listening, English Writing, Vocabulary Building, Accent Neutralization, and Mother Tounge Influence MTI Reduction",
 		"ogImage": null,
 		"docsLocation": "",
-		"favicon": "/"
+		"favicon": "/images/ecl.png"
 	},
 	"pwa": {
 		"enabled": true, // disabling this will also remove the existing service worker.
